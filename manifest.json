@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "FKcsdn",
+    "version": "0.1",
+    "description": "干掉\"关注博主即可阅读全文\"",
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/fkcsdn.js"
+            ],
+            "matches": [
+                "https://blog.csdn.net/chichoxian/article/details/*"
+            ]
+        }
+    ],
+    "author": "oldtank"
+}
